@@ -1,4 +1,5 @@
-﻿using Xamarin.Forms;
+﻿using InfiniteListView.Views;
+using Xamarin.Forms;
 
 namespace InfiniteListView
 {
@@ -8,7 +9,7 @@ namespace InfiniteListView
         {
             InitializeComponent();
 
-            MainPage = new InfiniteListView.MainPage();
+            MainPage = new MainPage();
         }
 
         protected override void OnStart()
