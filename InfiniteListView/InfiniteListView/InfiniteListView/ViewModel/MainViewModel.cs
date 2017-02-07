@@ -47,6 +47,8 @@ namespace InfiniteListView.ViewModel
             LoadMoreItemsCommand = new Command(
                 () => LoadMoreItems(),
                 () => !IsBusy);
+
+            LoadMoreItems();
         }
 
         private void LoadMoreItems()
